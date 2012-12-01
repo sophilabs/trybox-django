@@ -10,7 +10,7 @@ setup(
     url='https://github.com/sophilabs/trybox-django',
     download_url='http://github.com/sophilabs/trybox-django/tarball/trybox-django-v{0}#egg=trybox-django'.format(VERSION),
     license='MIT',
-    install_requires = ['trybox'],
+    install_requires = ['-e git+git://github.com/sophilabs/trybox.git'],
     packages=[
         'trybox_django',
         'trybox_django.steps',
