@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
-from trybox_django import VERSION
+
+VERSION = '0.2'
 
 setup(
     name='trybox-django',
